@@ -1,0 +1,490 @@
+{
+  "model_version": 1,
+  "timestamp": "2026-05-17T08:11:29.053742+00:00",
+  "total_correct": 42,
+  "total_expected": 45,
+  "total_fp": 7,
+  "total_missed": 3,
+  "accuracy_pct": 93.3,
+  "per_video": [
+    {
+      "video": "jab.mp4",
+      "move_type": "jab",
+      "expected_count": 17,
+      "detected_total": 16,
+      "breakdown": {
+        "jab": 15,
+        "uppercut": 1
+      },
+      "detections": [
+        {
+          "frame": 42,
+          "time": 1.4,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1221
+        },
+        {
+          "frame": 61,
+          "time": 2.03,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.072
+        },
+        {
+          "frame": 78,
+          "time": 2.6,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1948
+        },
+        {
+          "frame": 111,
+          "time": 3.7,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1245
+        },
+        {
+          "frame": 131,
+          "time": 4.37,
+          "pred": "uppercut",
+          "conf": 0.75,
+          "reason": "VEL:y-dominant",
+          "vel": 0.1057
+        },
+        {
+          "frame": 153,
+          "time": 5.1,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1266
+        },
+        {
+          "frame": 175,
+          "time": 5.83,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1498
+        },
+        {
+          "frame": 198,
+          "time": 6.6,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1452
+        },
+        {
+          "frame": 217,
+          "time": 7.23,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1167
+        },
+        {
+          "frame": 231,
+          "time": 7.7,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1383
+        },
+        {
+          "frame": 246,
+          "time": 8.2,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.2079
+        },
+        {
+          "frame": 270,
+          "time": 9.0,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1412
+        },
+        {
+          "frame": 288,
+          "time": 9.6,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.0731
+        },
+        {
+          "frame": 313,
+          "time": 10.43,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1856
+        },
+        {
+          "frame": 343,
+          "time": 11.43,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1186
+        },
+        {
+          "frame": 385,
+          "time": 12.83,
+          "pred": "jab",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.0425
+        }
+      ],
+      "correct": 15,
+      "fp": 1,
+      "missed": 2,
+      "status": "PASS (misclassified: {'uppercut': 1})"
+    },
+    {
+      "video": "cross.mp4",
+      "move_type": "cross",
+      "expected_count": 9,
+      "detected_total": 12,
+      "breakdown": {
+        "cross": 10,
+        "uppercut": 1,
+        "hook": 1
+      },
+      "detections": [
+        {
+          "frame": 4,
+          "time": 0.13,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1298
+        },
+        {
+          "frame": 61,
+          "time": 2.03,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.071
+        },
+        {
+          "frame": 84,
+          "time": 2.8,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1553
+        },
+        {
+          "frame": 115,
+          "time": 3.83,
+          "pred": "uppercut",
+          "conf": 0.75,
+          "reason": "VEL:y-dominant",
+          "vel": 0.1241
+        },
+        {
+          "frame": 151,
+          "time": 5.03,
+          "pred": "hook",
+          "conf": 0.8,
+          "reason": "VEL:z-dominant",
+          "vel": 0.1789
+        },
+        {
+          "frame": 194,
+          "time": 6.47,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1823
+        },
+        {
+          "frame": 220,
+          "time": 7.33,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1327
+        },
+        {
+          "frame": 233,
+          "time": 7.77,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1183
+        },
+        {
+          "frame": 259,
+          "time": 8.63,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.0961
+        },
+        {
+          "frame": 296,
+          "time": 9.87,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.0769
+        },
+        {
+          "frame": 324,
+          "time": 10.8,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1385
+        },
+        {
+          "frame": 362,
+          "time": 12.07,
+          "pred": "cross",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.2279
+        }
+      ],
+      "correct": 9,
+      "fp": 3,
+      "missed": 0,
+      "status": "PASS (misclassified: {'uppercut': 1, 'hook': 1})"
+    },
+    {
+      "video": "hook.mp4",
+      "move_type": "hook",
+      "expected_count": 10,
+      "detected_total": 13,
+      "breakdown": {
+        "hook": 13
+      },
+      "detections": [
+        {
+          "frame": 18,
+          "time": 0.6,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.0982
+        },
+        {
+          "frame": 83,
+          "time": 2.77,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1591
+        },
+        {
+          "frame": 123,
+          "time": 4.1,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1421
+        },
+        {
+          "frame": 169,
+          "time": 5.63,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1274
+        },
+        {
+          "frame": 216,
+          "time": 7.2,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1485
+        },
+        {
+          "frame": 269,
+          "time": 8.97,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1692
+        },
+        {
+          "frame": 307,
+          "time": 10.23,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.2354
+        },
+        {
+          "frame": 356,
+          "time": 11.87,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1866
+        },
+        {
+          "frame": 411,
+          "time": 13.7,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1946
+        },
+        {
+          "frame": 451,
+          "time": 15.03,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1867
+        },
+        {
+          "frame": 493,
+          "time": 16.43,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.0928
+        },
+        {
+          "frame": 537,
+          "time": 17.9,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.1795
+        },
+        {
+          "frame": 574,
+          "time": 19.13,
+          "pred": "hook",
+          "conf": 1.0,
+          "reason": "ML",
+          "vel": 0.099
+        }
+      ],
+      "correct": 10,
+      "fp": 3,
+      "missed": 0,
+      "status": "FAIL"
+    },
+    {
+      "video": "uppercut.mp4",
+      "move_type": "uppercut",
+      "expected_count": 9,
+      "detected_total": 8,
+      "breakdown": {
+        "uppercut": 8
+      },
+      "detections": [
+        {
+          "frame": 71,
+          "time": 2.37,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "VEL:y-dominant",
+          "vel": 0.1644
+        },
+        {
+          "frame": 121,
+          "time": 4.03,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.2211
+        },
+        {
+          "frame": 193,
+          "time": 6.43,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.1645
+        },
+        {
+          "frame": 271,
+          "time": 9.03,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.1527
+        },
+        {
+          "frame": 314,
+          "time": 10.47,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.1896
+        },
+        {
+          "frame": 357,
+          "time": 11.9,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.1869
+        },
+        {
+          "frame": 410,
+          "time": 13.67,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.0548
+        },
+        {
+          "frame": 454,
+          "time": 15.13,
+          "pred": "uppercut",
+          "conf": 1.0,
+          "reason": "ML:default",
+          "vel": 0.0815
+        }
+      ],
+      "correct": 8,
+      "fp": 0,
+      "missed": 1,
+      "status": "PASS"
+    },
+    {
+      "video": "walking_back_forth.mp4",
+      "move_type": "walking",
+      "expected_count": 0,
+      "detected_total": 0,
+      "breakdown": {},
+      "detections": [],
+      "correct": 0,
+      "fp": 0,
+      "missed": 0,
+      "status": "PASS"
+    },
+    {
+      "video": "idling_notwalking.mp4",
+      "move_type": "idle",
+      "expected_count": 0,
+      "detected_total": 0,
+      "breakdown": {},
+      "detections": [],
+      "correct": 0,
+      "fp": 0,
+      "missed": 0,
+      "status": "PASS"
+    }
+  ]
+}

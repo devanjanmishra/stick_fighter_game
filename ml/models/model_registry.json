@@ -1,0 +1,71 @@
+{
+  "versions": [
+    {
+      "mode": "finetune",
+      "epochs": 80,
+      "best_epoch": 80,
+      "best_val_acc": 1.0,
+      "n_classes": 6,
+      "class_names": [
+        "idle",
+        "jab",
+        "cross",
+        "hook",
+        "uppercut",
+        "walking"
+      ],
+      "training_videos": [
+        {
+          "move_type": "jab",
+          "path": "/home/ubuntu/attachments/7c242094-6815-4982-8183-6ba478e39761/jab.mp4",
+          "expected_count": 17,
+          "extracted_frames": 390
+        },
+        {
+          "move_type": "cross",
+          "path": "/home/ubuntu/attachments/f6777eed-4fc2-4feb-8c3b-9abc9d57dfd0/cross.mp4",
+          "expected_count": 9,
+          "extracted_frames": 412
+        },
+        {
+          "move_type": "hook",
+          "path": "/home/ubuntu/attachments/e707b2dc-e951-4254-9392-d820e336513c/hook.mp4",
+          "expected_count": 10,
+          "extracted_frames": 628
+        },
+        {
+          "move_type": "uppercut",
+          "path": "/home/ubuntu/attachments/624ad648-bd08-49bf-a27c-a490130fcc32/uppercut.mp4",
+          "expected_count": 9,
+          "extracted_frames": 474
+        },
+        {
+          "move_type": "walking",
+          "path": "/home/ubuntu/attachments/da64e209-13fa-4872-b035-300051dc4292/walking_back_forth.mp4",
+          "expected_count": 0,
+          "extracted_frames": 445
+        },
+        {
+          "move_type": "idle",
+          "path": "/home/ubuntu/attachments/d14f6498-0b85-481e-93da-0b2a78819631/idling_notwalking.mp4",
+          "expected_count": 0,
+          "extracted_frames": 514
+        }
+      ],
+      "dataset_size": 1384,
+      "per_class_accuracy": {
+        "idle": 1.0,
+        "jab": 1.0,
+        "cross": 1.0,
+        "hook": 1.0,
+        "uppercut": 1.0,
+        "walking": 1.0
+      },
+      "model_file": "move_classifier_v1.pt",
+      "norm_file": "norm_stats_v1.npz",
+      "version": 1,
+      "timestamp": "2026-05-17T08:10:35.902828+00:00"
+    }
+  ],
+  "latest_version": 1
+}

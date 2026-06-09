@@ -1,0 +1,43 @@
+{
+  "min_peak_distance": 30,
+  "velocity_threshold": 0.03,
+  "window_size": 16,
+  "class_names": [
+    "idle",
+    "jab",
+    "cross",
+    "hook",
+    "uppercut",
+    "walking"
+  ],
+  "feature_names": [
+    "left_dx",
+    "left_dy",
+    "left_dz",
+    "left_vdx",
+    "left_vdy",
+    "left_vdz",
+    "left_vwx",
+    "left_vwy",
+    "left_vwz",
+    "left_wx",
+    "left_wy",
+    "left_wz",
+    "nose_y",
+    "right_dx",
+    "right_dy",
+    "right_dz",
+    "right_vdx",
+    "right_vdy",
+    "right_vdz",
+    "right_vwx",
+    "right_vwy",
+    "right_vwz",
+    "right_wx",
+    "right_wy",
+    "right_wz",
+    "shoulder_mid_x",
+    "shoulder_mid_y",
+    "shoulder_width"
+  ]
+}
